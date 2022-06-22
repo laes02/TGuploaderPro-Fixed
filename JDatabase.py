@@ -29,7 +29,7 @@ class JsonDatabase(object):
     def create_user(self,name):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
-                     'moodle_host': 'https://aulavirtual.uij.edu.cu/',
+                     'moodle_host': '',
                      'moodle_repo_id': 5,
                      'moodle_user': '---',
                      'moodle_password': '---',
@@ -42,7 +42,7 @@ class JsonDatabase(object):
     def create_admin(self,name):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
-                     'moodle_host': 'https://aulavirtual.uij.edu.cu/',
+                     'moodle_host': '',
                      'moodle_repo_id': 5,
                      'moodle_user': '---',
                      'moodle_password': '---',
