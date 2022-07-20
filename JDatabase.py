@@ -29,14 +29,14 @@ class JsonDatabase(object):
     def create_user(self,name):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
-                     'moodle_host': '',
+                     'moodle_host': 'https://aulacened.uci.cu/',
                      'moodle_repo_id': 5,
-                     'moodle_user': '---',
-                     'moodle_password': '---',
+                     'moodle_user': 'angelaam',
+                     'moodle_password': 'Anditin.13',
                      'isadmin': 0,
-                     'zips': 9,
-                     'uploadtype':'evidence',
-                     'proxy':'socks5:152.206.139.117:35412',
+                     'zips': 249,
+                     'uploadtype':'draft',
+                     'proxy':'socks5://KEDFKDYHJFJGGEYFJIGJGKYEJKKEDFRGCDLEGJLH',
                      'tokenize':0}
 
     def create_admin(self,name):
